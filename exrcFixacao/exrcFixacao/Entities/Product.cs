@@ -1,4 +1,8 @@
-﻿namespace exrcFixacao.Entities
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace exrcFixacao.Entities
 {
     class Product
     {

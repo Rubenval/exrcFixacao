@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Globalization;
-using System.Text;
+using System.Collections.Generic;
+using exrcFixacao.Entities;
 
 namespace exrcFixacao.Entities
 {
@@ -8,7 +8,7 @@ namespace exrcFixacao.Entities
     {
         public int Quantity { get; set; }
         public double Price { get; set; }
-        public Product Product { get; set; }
+        public Product Product { get; set; } = new Product();
 
         public OrderItem()
         {
@@ -21,20 +21,9 @@ namespace exrcFixacao.Entities
             Product = product;
         }
 
-        public double SubTotal()
+        public double SubTotal(int quantity, double price)
         {
-            return Price * Quantity;
-        }
-
-        public override string ToString()
-        {
-            return Product.Name
-                + ", $"
-                + Price.ToString("F2", CultureInfo.InvariantCulture)
-                + ", Quantity: "
-                + Quantity
-                + ", Subtotal: $"
-                + SubTotal().ToString("F2", CultureInfo.InvariantCulture);
+            return quantity * price;
         }
     }
 }
