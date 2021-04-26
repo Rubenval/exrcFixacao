@@ -1,0 +1,13 @@
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\bin\Debug\netcoreapp3.1\exrcFixacao.exe
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\bin\Debug\netcoreapp3.1\exrcFixacao.deps.json
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\bin\Debug\netcoreapp3.1\exrcFixacao.runtimeconfig.json
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\bin\Debug\netcoreapp3.1\exrcFixacao.runtimeconfig.dev.json
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\bin\Debug\netcoreapp3.1\exrcFixacao.dll
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\bin\Debug\netcoreapp3.1\exrcFixacao.pdb
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\obj\Debug\netcoreapp3.1\exrcFixacao.csprojAssemblyReference.cache
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\obj\Debug\netcoreapp3.1\exrcFixacao.AssemblyInfoInputs.cache
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\obj\Debug\netcoreapp3.1\exrcFixacao.AssemblyInfo.cs
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\obj\Debug\netcoreapp3.1\exrcFixacao.csproj.CoreCompileInputs.cache
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\obj\Debug\netcoreapp3.1\exrcFixacao.dll
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\obj\Debug\netcoreapp3.1\exrcFixacao.pdb
+C:\RNM\exrcFixacao\exrcFixacao\exrcFixacao\obj\Debug\netcoreapp3.1\exrcFixacao.genruntimeconfig.cache

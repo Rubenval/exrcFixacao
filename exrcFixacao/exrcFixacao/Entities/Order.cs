@@ -13,6 +13,7 @@ namespace exrcFixacao.Entities
         public OrderStatus Status { get; set; }
         public Client Client { get; set; } = new Client();
         public List<OrderItem> OrderItens { get; set; } = new List<OrderItem>();
+        //Listas podem ser usadas para armazenar registros de classes que fazem a composição de uma segunda classe
 
         public Order()
         {

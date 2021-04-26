@@ -9,7 +9,7 @@ namespace exrcFixacao.Entities
     {
         public int Quantity { get; set; }
         public double Price { get; set; }
-        public Product Products { get; set; }
+        public Product Products { get; set; } //Classe produto gera um tipo Produto que não precisa ser inicializado e pode ser usdado como parâmetro
 
         public OrderItem()
         {
@@ -22,7 +22,7 @@ namespace exrcFixacao.Entities
             Products = product;
         }
 
-        public double SubTotal()
+        public double SubTotal() //Funções que trazem o resultado direto não precisam de parâmetro
         {
             return Quantity * Price;
         }
@@ -35,7 +35,7 @@ namespace exrcFixacao.Entities
                 + ", Quantity: "
                 + Quantity
                 + ", Subtotal: $"
-                + SubTotal().ToString("F2", CultureInfo.InvariantCulture);
+                + SubTotal().ToString("F2", CultureInfo.InvariantCulture); //A função com resultado pode ser utilizado na formação das strings (impressão)
         }
     }
 }
